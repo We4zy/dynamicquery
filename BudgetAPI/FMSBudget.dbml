@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Sandbox" Class="FMSBudgetDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=COSDWSQL;Initial Catalog=Sandbox;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SandboxConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="FMSBudget.BudgetExport" Member="BudgetExports">
+    <Type Name="BudgetExport">
+      <Column Name="Doc" Type="System.String" DbType="VarChar(24)" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Period" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="Program" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProgramDesc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TypeDesc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="AmtRounded" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vwFMSBudget" Member="vwFMSBudgets">
+    <Type Name="vwFMSBudget">
+      <Column Name="ProgramDesc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Budget" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BudgetUtilized" Type="System.Decimal" DbType="Decimal(22,6)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

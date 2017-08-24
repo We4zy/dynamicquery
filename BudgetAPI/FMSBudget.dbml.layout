@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FMSBudget">
+  <DataContextMoniker Name="/FMSBudgetDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3c73731c-ddd0-4490-81a8-4c2bc02a30ab" absoluteBounds="4, 1.875, 2.125, 2.5401025390625">
+      <DataClassMoniker Name="/FMSBudgetDataContext/BudgetExport" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0f2615f0-cfc3-4f9f-b794-0643bfe059d8" absoluteBounds="4.015, 2.335, 2.0949999999999998, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b8223cf-52ca-4bf9-ae53-ad095a7246d5" absoluteBounds="6.75, 2, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FMSBudgetDataContext/vwFMSBudget" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8a8015ba-0f9d-4372-ba03-5d3337b67a82" absoluteBounds="6.765, 2.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
