@@ -15,7 +15,8 @@ namespace BudgetAPI.Controllers
         /// A sample method used to proto-type the WebAPI.  Returns all Yearly budgets and YTD usage from SPD test data/statistics
         /// No filter capabilities are contained within the method
         /// </summary>
-        /// <returns></returns>  
+        /// <returns></returns> 
+//Nate was here		
         [HttpGet]
         public ColumnChartResponse GetBudgetCategories()
         {
